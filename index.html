@@ -4,14 +4,207 @@
 		<title>I am Tommy Kim</title>
 	</head>
 
-	<body>
+	<body>	
+		<header>
+			<h1>I am Tommy Kim</h1>
+		</header>
 		<main role="main">
 
-			<h1>Education Background</h1>
+			<h2>Education Background</h2>
 			<p>I am a sophomore at UCSD</p>
 			<p>My major is Computer Science</p>
+
+			<aside>
+				<p>I am part of Warren College</p>
+			</aside>
+
+			<section>
+				<h3>About Me</h3>
+			</section
 		</main>
-		<a href="https://github.com/Toggers">My Github Link</a>
+
 		
+		<h2>My Coding Background</h2>
+		<div>I have been coding since 7th grade of middle school</div>
+		<p>The language I know best is <span style="color:green">Java</span></p>
+		
+		<hr>
+		<p>Here are some of my past projects</p>	
+		<a href="https://github.com/Toggers">My Github Link</a>
+		<nav>
+			<a href="https://github.com/Toggers/Anyvent/">My IOS Project</a>
+		</nav>
+		</hr>
+
+		<iframe src="https://github.com/Toggers/" title="github"></iframe>
+		
+		<h2>My Favorite Foods</h2>
+		<ul>
+			<li>Pizza</li>
+			<li>Ice Cream</li>
+			<li>Pasta</li>
+		</ul>
+		
+		<h2>My Favorite Drinks</h2>
+		<ol>
+			<li>Root Beer</li>
+			<li>Coke</li>
+			<li>Fanta</li>
+		</ol>
+
+		<h2>My Hobbies</h2>
+		<figure>
+			<picture>
+			<img src="sunset.jpg">
+			</picture>
+			<figcaption>I enjoy taking walks at sunset</figcaption>
+		</figure>
+
+		<b>I enjoy playing video games in my free time</b>
+		<br></br>
+
+		<i>I also like to cook dinner from time to time</i>
+		<br></br>
+
+		<strong>I play the saxophone</strong>
+		<p>I also like to <em>sleep</em></p>
+		<p>I enjoy coding programs in <code>Java</code></p>
+
+		<pre>
+		I have also
+		recently learned React.js
+		and I like it a lot more
+		than the    regular	  Javascript.
+		</pre>	
+ 
+		<audio controls>
+			<source src="kalimba.mp3">
+		</audio>
+
+		<video controls>
+			<source src="sample.mp4">
+		</video>
+
+		<br></br>
+		<canvas style="border:1px solid" width="200" height="200">
+		</canvas>
+			
+		<svg width="50" height="50">
+			<circle cx="50" cy="50" r="40" fill="yellow"/>
+		</svg>
+
+
+		<h3>Tell me about yourself!</h3>
+		<form>
+			<fieldset>
+			<legend>About You:</legend>
+			<label>Favorite Food:</label>
+			<input type="text">
+
+			<br></br>
+
+			<label>Favorite Sport:</label>
+			<select>
+				<optgroup>
+					<option>Soccer</option>
+					<option>Tennis</option>
+					<option>Football</option>
+					<option>Golf</option>
+				</optgroup>
+			</select>
+
+			<br></br>
+			
+			<label>One Cool Fact About You:</label>
+			<textarea>I like to...</textarea>
+
+			<br></br>
+
+			<label>Favorite Drink:</label>
+			<input list="drinks">
+			<datalist id="drinks">
+				<option value="Sprite">
+				<option value="Coke">
+				<option value="Fanta">
+			</datalist>
+			<input type="submit">
+
+			<br></br>
+			
+			<label>Today's Date:</label>
+			<input type="date">
+			<br></br>
+		
+			<label>Your email:</label>
+			<input type="email">
+			<br></br>
+
+			<label>Your favorite number:</label>
+			<input type="number">
+			<br></br>
+
+			<label>Current Time:</label>
+			<input type="time">
+			<br></br>
+
+			<label>Your Website:</label>
+			<input type="url">
+			<br></br>
+
+			<label>Photo of Yourself:</label>
+			<input type="file">
+			<br></br>
+
+			<label>Favorite Color:</label>
+			<input type="color">
+			<br></br>
+
+			<label>Are you a College Student?</label>
+			<input type="checkbox">
+			<br></br>
+			</fieldset>
+		</form>
+
+
+		<br></br>
+		<table>
+		<caption>My Fall Schedule</caption>
+		<colgroup>
+			<col span="2" style="background-color:yellow">
+		</colgroup>
+		<tr>
+			<th>Class</th>
+			<th>Time</th>
+		</tr>
+		<tr>
+			<td>CSE 110</td>
+			<td>Monday 10:00</td>
+		</tr>
+		<tr>
+			<td>CSE 101</td>
+			<td>Monday 1:00</td>
+		</tr>
+		<tr>
+			<td>CSE 130</td>
+			<td>Tuesday 9:00</td>
+		</tr>
+		</table>
+	
+		<details>
+			<summary>My Favorite Class</summary>
+			<p>CSE 110 is my favorite class because I know it will best prepare me for the software engineering industry.</p>
+		</details>	
+
+		<p>Do you like Computer Science?</p>
+		<button onclick="showContent()">Yes</button>
+
+		<template>
+			<h3>Hooray! I like CS too!</h3>	
+		</template>
+
 	</body>
+
+	<footer>
+		<p>Author: Tommy Kim</p>
+	</footer>
 </html>
