@@ -2,6 +2,11 @@ body {
 	background-color: #FFFF00;
 }
 
+@media only screen and (max-width: 650px) {
+	body {
+		background-color: lightblue;
+	}
+}
 p.dotted {
 	border-style: dotted;
 	border-color: green;
@@ -38,12 +43,46 @@ a:active {
 	color: #0000FF;
 }
 
+.container {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 4;
+	flex-wrap: wrap;
+}
 
-h2 {
+.grid-container {
+	display:grid;
+	grid-template-columns: 40px 40px 40px 40px;
+	grid-area: header;
+	grid-gap: 100px;
+	justify-self: start;
+}
+
+h2, h3 {
 	color: orange;
 	text-decoration: overline;
 	text-align:center;
 	min-width: 60%;
 	position: relative;
 	
+}
+
+li {
+	list-style-type: circle;
+}
+
+li li {
+	list-style-type: disc;
+}
+
+div > span {
+	color: red;
+}
+
+strong ~ span {
+	color: green;
+}
+
+li:first-of-type + li {
+	color: orange;
 }
