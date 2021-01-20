@@ -8,4 +8,42 @@ p.dotted {
 	border-width: thin;
 	border-radius: 25px;
 	font-size: 4ch;
+	margin: 30px 60px 90px 120px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-right: 50px;
+	padding-left: 50px;
+	display: inline-block;
+	max-width: 10%;
+}
+
+* {
+	margin-left: 10px;
+}
+
+p[target=foo] {
+	border: 1px solid black;
+	padding: 25px 10px 25px 10px;
+	height: 200px;
+	width: 150px;
+	display: block;
+	position: static;
+}
+
+a:hover {
+	color: green;
+}
+
+a:active {
+	color: #0000FF;
+}
+
+
+h2 {
+	color: orange;
+	text-decoration: overline;
+	text-align:center;
+	min-width: 60%;
+	position: relative;
+	
 }
