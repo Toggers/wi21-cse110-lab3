@@ -5,22 +5,30 @@
 		<title>I am Tommy Kim</title>
 	
 		<link rel="stylesheet" href="mystyle.css">	
+		<link rel="stylesheet" href="https://fonts.google.com/">
 		<style>
 		/* This is a comment */
 		p {
 			color: blue;
 		}	
 		
-		div {
+		h1 {
 			background-color: hsl(180, 40%, 40%);			
 			font-size: 4rem;
-			border: 1px solid black
+			border: 1px solid black;
+			width: 200px;
+			padding: 40px;
+			margin-top: 100px;
+			margin-bottom: 100px;
+			margin-right: 125px;
+			margin-left: 75px;
 		}
 		
 		#p1 {
 			background-color:hsla(120,100%,25%,0.3);
 			font-size: 20px;
 			line-height: 2em;
+			margin: auto;
 		}
 	
 		</style>
@@ -49,9 +57,10 @@
 		<h2>My Coding Background</h2>
 		<div>I have been coding since 7th grade of middle school</div>
 		<p>The language I know best is <span style="color:green">Java</span></p>
+
 		
 		<hr>
-		<p>Here are some of my past projects</p>	
+		<p target="foo">Here are some of my past projects</p>	
 		<a href="https://github.com/Toggers">My Github Link</a>
 		<nav>
 			<a href="https://github.com/Toggers/Anyvent/">My IOS Project</a>
@@ -60,18 +69,25 @@
 		<iframe src="https://github.com/Toggers/" title="github"></iframe>
 		
 		<h2>My Favorite Foods</h2>
+
+		<div class="container">
 		<ul>
 			<li>Pizza</li>
 			<li>Ice Cream</li>
 			<li>Pasta</li>
 		</ul>
-		
+		</div>
+	
+			
 		<h2>My Favorite Drinks</h2>
+
+		<div class="container">
 		<ol>
 			<li>Root Beer</li>
 			<li>Coke</li>
 			<li>Fanta</li>
 		</ol>
+		</div>
 
 		<h2>My Hobbies</h2>
 		<figure>
@@ -81,15 +97,20 @@
 			<figcaption>I enjoy taking walks at sunset</figcaption>
 		</figure>
 
+
+		<div class="grid-container"> 
 		<b>I enjoy playing video games in my free time</b>
 		<br>
 
 		<i>I also like to cook dinner from time to time</i>
 		<br>
+		</div>
 
+		<div>
 		<strong>I play the saxophone</strong>
 		<p>I also like to <em>sleep</em></p>
 		<p>I enjoy coding programs in <code>Java</code></p>
+		</div>
 
 		<pre>
 		I have also
