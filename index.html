@@ -3,20 +3,41 @@
 	<head>
 		<meta name="author" content="Tommy Kim">
 		<title>I am Tommy Kim</title>
-	</head>
+	
+		<link rel="stylesheet" href="mystyle.css">	
+		<style>
+		/* This is a comment */
+		p {
+			color: blue;
+		}	
+		
+		div {
+			background-color: hsl(180, 40%, 40%);			
+			font-size: 4rem;
+			border: 1px solid black
+		}
+		
+		#p1 {
+			background-color:hsla(120,100%,25%,0.3);
+			font-size: 20px;
+			line-height: 2em;
+		}
+	
+		</style>
+	</head>	
 
 	<body>	
 		<header>
-			<h1>I am Tommy Kim</h1>
+			<h1 style="background-color:rgb(255,0,0);">I am Tommy Kim</h1>
 		</header>
 		<main role="main">
 
-			<h2>Education Background</h2>
-			<p>I am a sophomore at UCSD</p>
-			<p>My major is Computer Science</p>
+			<h2 style="background-color:rgba(255,99,71,0.3);">Education Background</h2>
+			<p style="color:#000;">I am a sophomore at UCSD</p>
+			<p id="p1">My major is Computer Science</p>
 
 			<aside>
-				<p>I am part of Warren College</p>
+				<p class=dotted>I am part of Warren College</p>
 			</aside>
 
 			<section>

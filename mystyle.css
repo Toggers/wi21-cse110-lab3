@@ -1,0 +1,11 @@
+body {
+	background-color: #FFFF00;
+}
+
+p.dotted {
+	border-style: dotted;
+	border-color: green;
+	border-width: thin;
+	border-radius: 25px;
+	font-size: 4ch;
+}
